@@ -1,14 +1,61 @@
+/* Just copy-pasta stuff from Shape of CSS and the other linked site. */
+
 .robot-container {
+    width: 900px;
+    height: 900px;
+    border: 2px solid white;
+    margin: 75px auto;
 }
 
 .robot-face-shape {
+    margin: 20px auto;
+    /* transform: rotate(0.5turn); un-comment when complete*/
+    display: block;
+    width: 504px;
+    height: 720px;
+    background-color: red;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
 
 .robot-eye-left {
+    --b: 2px;  /* border thickness */
+    --s: 30px; /* preferred size shape */
+    --c: #CD8C52;
+
+    width: round(var(--s),4*var(--b));
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: 
+    repeating-radial-gradient(calc(2*var(--b)) at top,#0000 -1px,var(--c) 0 calc(50% - 1px),#0000 50% calc(100% - 1px)) calc(50% + var(--b)) 100%, 
+    repeating-radial-gradient(calc(2*var(--b)) at bottom,var(--c) -1px,#0000 0 calc(50% - 1px),var(--c) 50% calc(100% - 1px)) 50% 0;
+    background-size: 150% 50%;
+    background-repeat: no-repeat;
+    mask: 
+    radial-gradient(calc(1.5*var(--b)) at calc(100% - var(--b)/2) 0, #0000 calc(100%/3), #000 calc(100%/3 + 1px) 110%, #0000 0) calc(50% + var(--b)/2) 
+    100%/calc(3*var(--b)) 50% exclude no-repeat, 
+    conic-gradient(#000 0 0);
 }
 
 .robot-eye-right {
 }
+.burst-8 {
+    background: orange;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+    transform: rotate(20deg);
+    }
+.burst-8:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    background: orange;
+    transform: rotate(135deg);
+    }
 
 .robot-ear-left {
 }
