@@ -81,18 +81,18 @@ This assignment should prove that a student is able to:
   - [ ] Use the following types of shapes:
     - [ ] At least one square shape
     - [ ] At least one circle shape
-    - [ ] At least one rectangle shape
+    - [x ] At least one rectangle shape
     - [ ] At least one oval shape
     - [ ] Any other shapes of your choice. You can add additional containers to create a combined shape and additional classes inside the current face part.
   - [ ] At least one shape should have a solid background color chosen from the available [HTML colors](https://www.w3schools.com/html/html_colors.asp).
   - [ ] At least one shape should have a gradient background color chosen from the available [UI gradients](https://uigradients.com/).
-  - [ ] At least one shape should have a background image that fits the shape and doesn't overflow it, using images from [Lorem Picsum](https://picsum.photos/) or any other images CDN service.
+  - [ x] At least one shape should have a background image that fits the shape and doesn't overflow it, using images from [Lorem Picsum](https://picsum.photos/) or any other images CDN service.
   - [ ] The width and / or height height of at least one shape should be based on the percentage units relative to the dimensions of the face shape.
   - [ ] The width and / or height of at least one shape should be based on relative units relative to the font size.
   - [ ] At least one shape should have an opacity of 50% or be semi-transparent.
 - [ ] Position the shapes inside or outside the face shape according to the following guidelines:
   - [ ] In-face elements should be positioned in relation to their static position.
-  - [ ] External face shapes should be positioned in relation to the robot container or the face shape.
+  - [x ] External face shapes should be positioned in relation to the robot container or the face shape.
 
 `For the Legal Page exercise`
 
