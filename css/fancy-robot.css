@@ -3,7 +3,7 @@
 .robot-container {
     width: 900px;
     height: 900px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     margin: 75px auto;
 }
 
@@ -81,14 +81,14 @@
 
 .rightcrosseye{
     position: relative;
-    top: -175px;
-    left: 25px;
+    top: -165px;
+    left: 39px;
     --c: #e621dc;
-    height: 150px;
+    height: 125px;
     aspect-ratio: 1;
     box-shadow: 0 0 0 35px inset var(--c);
     border-image: conic-gradient(var(--c) 0 0) 50%/calc(50% - 15px);
-    clip-path: circle(); /* remove this if you don't want a rounded shape */
+    /* clip-path: circle(); remove this if you don't want a rounded shape */
     rotate: 45deg;
 }
 
